@@ -337,7 +337,7 @@ In more advanced cases, you might not want the automatic forwarding of the secon
 
 == Resequencer
 
-The Resequencer sorts a set of received messages by their correlation sequence property and issues them in the correct order. It uses the `timeout` and `fileOnTimeout` attributes described in <<Collection Aggregator>> to determine when all the messages in the set have been received.
+The Resequencer sorts a set of received messages by their correlation sequence property and issues them in the correct order. It uses the `timeout` and `failOnTimeout` attributes described in <<Collection Aggregator>> to determine when all the messages in the set have been received.
 
 The Resequencer is configured as follows:
 
